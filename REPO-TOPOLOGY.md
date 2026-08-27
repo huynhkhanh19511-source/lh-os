@@ -1,6 +1,6 @@
 # Repository Topology
 
-## Initial Strategy
+## Strategy
 
 Start with one root repository: `lh-os`.
 
@@ -15,10 +15,43 @@ lh-os/
 ├── ARCHITECTURE.md
 ├── REPO-TOPOLOGY.md
 ├── ISSUE-TAXONOMY.md
-└── NOTION-GITHUB-LINKING.md
+├── NOTION-GITHUB-LINKING.md
+│
+├── agent/
+│   └── sensemaking/
+│
+├── skills/
+│   ├── pattern_recognition/
+│   └── structural_analysis/
+│
+├── domains/
+│   └── contract/
+│
+├── artifacts/
+├── tests/
+└── docs/
 ```
 
-As executable work grows, implementation directories can be introduced deliberately rather than pre-allocating a large hierarchy.
+## Runtime Organization
+
+```text
+Sensemaking Runtime
+│
+├── Agent
+│   └── sensemaking/
+│
+├── Skills
+│   ├── pattern_recognition/
+│   └── structural_analysis/
+│
+├── Cases
+│   └── Contract Analysis
+│
+├── Artifacts
+└── Tests
+```
+
+`domains/` is retained for the current MVP implementation. Conceptually, Contract Analysis is a **Case** rather than an Agent or a top-level architectural layer. A future cleanup may move domain-specific runtime cases under `cases/` once the abstraction is validated by runtime evidence.
 
 ## Future Extraction Candidates
 
@@ -28,4 +61,4 @@ As executable work grows, implementation directories can be introduced deliberat
 
 ## Rule
 
-**Split by lifecycle, not by imagination.**
+**Split by lifecycle, not by imagination. Introduce structure only when runtime evidence justifies it.**
