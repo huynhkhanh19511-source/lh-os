@@ -31,6 +31,38 @@ LH OS connects a knowledge layer to an execution layer and closes the loop throu
 | Sensemaking Runtime | Execute reusable capabilities against reality |
 | Feedback | Evidence, failures, observations, learning |
 
+## Architectural Sensemaking Model
+
+Architectural Sensemaking is the progression of the same person through three cognitive states while entering and understanding a reality:
+
+```text
+Reality
+  ↓
+Reality Orientation
+  ↓
+Relationship Sensemaking
+  ↓
+System Formation
+  ↓
+Architecture
+  ↓
+Runtime
+  ↓
+Feedback
+```
+
+See [Sensemaking Model](docs/sensemaking-model.md) for the detailed model.
+
+The three states correspond to increasing depth of observation rather than fixed job ranks:
+
+| State | Core question | Primary view |
+|---|---|---|
+| Junior State — Reality Orientation | What is this? | Objects / Structure |
+| Senior State — Relationship Sensemaking | How does it relate? | Relationships / Workflow |
+| Architect State — System Formation | What system should exist? | System / Architecture |
+
+A person may move through all three states when entering a new reality. The state is determined by depth of understanding, not title.
+
 ## Sensemaking Runtime
 
 The runtime is the execution layer for Architectural Sensemaking.
@@ -75,6 +107,21 @@ Contractual Relationships
 Risk / Rights / Constraints
   ↓
 Decision
+```
+
+Contract Analysis can also be used to validate the three sensemaking states:
+
+```text
+Contract
+  ↓
+L1 — Structure Map
+"What is this?"
+  ↓
+L2 — Relationship / Workflow Map
+"How does it relate?"
+  ↓
+L3 — System / Architecture Map
+"What system does this create?"
 ```
 
 ## Traceability
