@@ -1,58 +1,98 @@
 # Mission
 
-> LH OS is an executable system for turning knowledge, architecture, and decisions into runtime feedback.
+## Why LH OS Exists
 
-## Why
+Reality is more complex than the representations we usually make of it.
 
-LH has accumulated substantial theory and architecture. The next stage is to make those ideas executable and let real runtime behavior continuously improve the system.
+Information is fragmented. Relationships are hidden. Decisions are often made through implicit reasoning that cannot be inspected, reused, or improved.
 
-## Core Loop
+LH OS exists to explore a different loop:
 
 ```text
-Knowledge / Architecture
-          ↓
-       Decision
-          ↓
-      GitHub
-          ↓
-   Implementation
-          ↓
-       Runtime
-          ↓
-      Feedback
-          ↓
- Knowledge / Architecture
+Reality
+  ↓
+Sensemaking
+  ↓
+Structured Understanding
+  ↓
+Decision
+  ↓
+Artifact
+  ↓
+Runtime Evidence
+  ↓
+Better Sensemaking
 ```
+
+## Mission
+
+> **Turn complex reality into better decisions, then use the consequences and evidence of those decisions to improve the system that produced them.**
+
+The goal is not to accumulate more theory.
+
+The goal is to make useful understanding **operational, inspectable, reusable, and falsifiable**.
+
+## Core Hypothesis
+
+A useful sensemaking system should be able to:
+
+1. encounter messy reality
+2. extract meaningful primitives
+3. make relationships visible
+4. form a structured representation
+5. identify decision-relevant signals
+6. produce a persistent artifact
+7. observe runtime results
+8. update its beliefs, methods, or architecture
+
+## Operating Loop
+
+```text
+Theory
+  ↓
+System
+  ↓
+Runtime
+  ↓
+Evidence
+  ↓
+Updated Theory
+```
+
+No layer is final.
+
+Theory proposes a model.
+The system operationalizes it.
+Runtime exposes it to reality.
+Evidence determines what should change.
 
 ## Division of Responsibility
 
-### Notion
+### Notion — Thinking & Memory
 
-- Memory
-- Knowledge
-- Architecture
-- Decisions
-- Long-form reasoning
+- theory
+- knowledge
+- architecture
+- decisions
+- long-form reasoning
 
-### GitHub
+### GitHub — Execution & Proof
 
-- Execution
-- Source code
-- Artifacts
-- Experiments
-- Version history
-- Implementation tasks
+- executable capabilities
+- skills and agents
+- runtime cases
+- artifacts
+- tests
+- version history
 
-### Runtime
+### Reality — Pressure
 
-- Reality
-- Tests
-- Measurements
-- Failures
-- Observations
+- inputs
+- constraints
+- failures
+- outcomes
+- observations
 
 ## Principle
 
-Notion and GitHub should complement each other, not duplicate each other.
-
-**Notion explains why and what. GitHub makes it executable and records how. Runtime tells us whether it actually works.**
+**The purpose of execution is not merely to produce output. It is to create evidence that can improve judgment.**
