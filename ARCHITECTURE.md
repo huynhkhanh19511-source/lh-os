@@ -1,78 +1,15 @@
 # Architecture
 
-## System Boundary
+## System Identity
 
-LH OS connects a knowledge layer to an execution layer and closes the loop through runtime evidence.
+LH OS is a **Decision & Sensemaking System**.
 
-```text
-                         LH OS
-                           │
-                ┌──────────┴──────────┐
-                │                     │
-             Notion                GitHub
-         Knowledge Layer       Execution Layer
-                                      │
-                                      ▼
-                           Sensemaking Runtime
-                                      │
-                                      ▼
-                                   Feedback
-                                      │
-                                      ▼
-                                    Notion
-```
-
-## Layers
-
-| Layer | Primary responsibility |
-|---|---|
-| Notion | Knowledge, architecture, decisions, memory |
-| GitHub | Skills, agents, code, artifacts, experiments, tests, versioning |
-| Sensemaking Runtime | Execute reusable capabilities against reality |
-| Feedback | Evidence, failures, observations, learning |
-
-## Architectural Sensemaking Model
-
-Architectural Sensemaking is the progression of the same person through three cognitive states while entering and understanding a reality:
+Its system boundary is defined by one loop:
 
 ```text
 Reality
   ↓
-Reality Orientation
-  ↓
-Relationship Sensemaking
-  ↓
-System Formation
-  ↓
-Architecture
-  ↓
-Runtime
-  ↓
-Feedback
-```
-
-See [Sensemaking Model](docs/sensemaking-model.md) for the detailed model.
-
-The three states correspond to increasing depth of observation rather than fixed job ranks:
-
-| State | Core question | Primary view |
-|---|---|---|
-| Junior State — Reality Orientation | What is this? | Objects / Structure |
-| Senior State — Relationship Sensemaking | How does it relate? | Relationships / Workflow |
-| Architect State — System Formation | What system should exist? | System / Architecture |
-
-A person may move through all three states when entering a new reality. The state is determined by depth of understanding, not title.
-
-## Sensemaking Runtime
-
-The runtime is the execution layer for Architectural Sensemaking.
-
-```text
-Reality
-  ↓
-Sensemaking Agent
-  ↓
-Skill Composition
+Sensemaking
   ↓
 Structured Reality
   ↓
@@ -80,60 +17,197 @@ Decision
   ↓
 Artifact
   ↓
-Runtime Evidence
+Evidence
+  ↓
+System Update
+```
+
+Everything inside LH OS should support at least one part of this loop.
+
+## System Boundary
+
+```text
+                     LH OS
+                       │
+        ┌──────────────┴──────────────┐
+        │                             │
+ Shared Sensemaking System       Reality Cases
+        │                             │
+ Agent / Skills / Runtime       Concrete situations
+        │                             │
+        └───────────┬─────────────────┘
+                    ↓
+              Decision Artifact
+                    ↓
+                 Evidence
+                    ↓
+               System Update
+```
+
+## Shared System
+
+Shared capabilities should be reusable across multiple cases.
+
+```text
+agent/
+skills/
+runtime/
+tests/
+```
+
+They answer:
+
+> **How does LH OS perform sensemaking?**
+
+## Reality Cases
+
+Cases are concrete situations used to pressure-test the system.
+
+```text
+cases/
+└── <case>/
+    ├── input/
+    ├── run/
+    ├── artifacts/
+    └── evidence/
+```
+
+They answer:
+
+> **Does the system still work when reality changes?**
+
+A case is therefore not a product module. It is a **reality experiment**.
+
+## Sensemaking Runtime
+
+The current runtime hypothesis is:
+
+```text
+Reality
+  ↓
+Primitives
+  ↓
+Relationships
+  ↓
+Structure
+  ↓
+Decision Signals
+  ↓
+Artifact
+  ↓
+Evidence
 ```
 
 ### Core abstractions
 
-- **Agent** — thin orchestrator that selects and composes skills.
-- **Skill** — reusable capability; analogous to a Unix utility.
-- **Primitive** — building block used to represent a reality.
-- **Pattern** — recognizable relationship or configuration among primitives.
-- **Structure** — organized representation of reality.
-- **Artifact** — persistent output that can be reused, tested, or communicated.
-- **Case** — concrete reality used to test the runtime.
+| Abstraction | Role |
+|---|---|
+| Reality | What is being understood |
+| Primitive | Basic unit extracted from reality |
+| Relationship | Connection between primitives |
+| Pattern | Repeated or meaningful configuration |
+| Structure | Organized model of the reality |
+| Skill | Reusable transformation capability |
+| Agent | Orchestrates capability composition |
+| Decision Signal | Output relevant to judgment |
+| Artifact | Persistent result |
+| Evidence | Runtime observation capable of changing belief |
+| Case | Concrete pressure test |
 
-## First Runtime Case
+## Architectural Sensemaking
 
-Contract Analysis is the first case used to validate the Sensemaking Runtime. It is not the identity of the Agent.
+Architectural Sensemaking describes increasing depth of engagement with a reality:
+
+```text
+Reality Orientation
+    ↓
+Relationship Sensemaking
+    ↓
+System Formation
+    ↓
+Architecture
+```
+
+The states answer progressively deeper questions:
+
+| State | Question |
+|---|---|
+| Reality Orientation | What is this? |
+| Relationship Sensemaking | How does it relate? |
+| System Formation | What system is operating or should exist? |
+
+The runtime attempts to make parts of this progression explicit and reusable.
+
+## Evidence Boundary
+
+An output is not automatically evidence.
+
+Evidence must be able to answer:
+
+```text
+What did we expect?
+What actually happened?
+What differed?
+What does that change?
+```
+
+The important loop is therefore:
+
+```text
+Runtime
+  ↓
+Observation
+  ↓
+Belief Update
+  ↓
+System Change
+```
+
+## First Case: Contract Analysis
+
+Contract Analysis is the first reality case.
 
 ```text
 Contract Text
   ↓
-Contract Primitives
+Extract Parties / Obligations / Rights / Constraints
   ↓
-Contractual Relationships
+Map Relationships
   ↓
-Risk / Rights / Constraints
+Form Structured Contract
   ↓
-Decision
+Identify Decision Signals
+  ↓
+Produce Decision Artifact
+  ↓
+Record Evidence
 ```
 
-Contract Analysis can also be used to validate the three sensemaking states:
+Its purpose is not to define LH OS.
 
-```text
-Contract
-  ↓
-L1 — Structure Map
-"What is this?"
-  ↓
-L2 — Relationship / Workflow Map
-"How does it relate?"
-  ↓
-L3 — System / Architecture Map
-"What system does this create?"
-```
+Its purpose is to test this hypothesis:
+
+> **Can explicit intermediate representations transform messy reality into a useful decision artifact?**
 
 ## Traceability
 
-A mature workflow should allow a decision to be traced through implementation and runtime:
+A mature LH OS workflow should preserve a path from reasoning to evidence:
 
 ```text
-Idea → Decision → Issue → Skill / Agent → Commit → Runtime → Observation → Learning
+Reality
+→ Representation
+→ Decision
+→ Implementation
+→ Runtime
+→ Observation
+→ Evidence
+→ Architecture Update
 ```
 
 ## Design Rule
 
-Do not copy the entire knowledge base into GitHub. Link the systems and keep each artifact in the layer where it is most useful.
+> **Do not add architecture because it looks complete. Add it when reality creates pressure for it.**
 
-**Build the smallest executable capability that can produce useful runtime evidence.**
+And:
+
+> **Build the smallest executable capability that can produce evidence capable of changing the system.**
