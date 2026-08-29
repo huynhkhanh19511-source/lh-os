@@ -45,6 +45,32 @@ Runtime Evidence
 - **Artifact** — persistent output that can be reused, tested, or communicated
 - **Case** — a concrete reality used to test the runtime
 
+## Repository Organization
+
+LH OS separates **shared capabilities** from **reality cases**:
+
+```text
+Shared System
+├── agent/
+├── skills/
+├── runtime/
+└── tests/
+
+Reality Cases
+└── cases/
+    └── <case>/
+        ├── input/
+        ├── run/
+        ├── artifacts/
+        └── evidence/
+```
+
+A case is a self-contained vertical slice:
+
+```text
+Reality Input → Execution → Artifact → Evidence
+```
+
 ## First Runtime Case
 
 **Contract Analysis** is the first case, not the identity of the Agent.
