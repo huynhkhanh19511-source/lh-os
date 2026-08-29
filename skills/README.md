@@ -4,6 +4,36 @@ Skills in LH OS are not imagined instructions or a collection of prompts.
 
 > **A Skill is compressed experience: a reusable way of working extracted from repeated contact with Reality.**
 
+## Architecture
+
+```text
+Theory
+   ↓
+Primitives
+   ↓
+Skills
+   ↓
+Runtime
+   ↓
+Evidence
+   ↓
+Skill Update
+```
+
+A Skill combines reusable primitives into a purposeful workflow.
+
+It is not considered complete simply because documentation exists.
+
+## Current Skill Set
+
+| Skill | Status | Purpose |
+|---|---|---|
+| [Reality Scout](reality-scout/README.md) | Developing | Turn observations into a structured representation of Reality |
+| [Capability Assessment](capability-assessment/README.md) | Developing | Evaluate demonstrated capability through evidence |
+| [Gap Analysis](gap-analysis/README.md) | Developing | Identify meaningful gaps and prioritize intervention |
+| [Runtime Review](runtime-review/README.md) | Developing | Compare intended and actual behavior to extract learning |
+| [Solution Package Design](solution-package-design/README.md) | Future flagship | Bridge Reality, architecture, implementation, and Runtime |
+
 ## Skill Evolution Loop
 
 ```text
@@ -13,11 +43,11 @@ Repeated Pattern
     ↓
 Skill Extraction
     ↓
-Skill
+Skill Hypothesis
     ↓
 Runtime
     ↓
-Failure
+Failure / Friction
     ↓
 Evidence
     ↓
@@ -25,46 +55,44 @@ Skill Update
     ↺
 ```
 
-A Skill is therefore never considered complete simply because its `SKILL.md` exists.
+## Maturity
 
-It is a hypothesis about a reusable way of working until Runtime produces evidence.
+A Skill may move through:
 
-## Current Skills
-
-- [Reality Scout](reality-scout/README.md) — developing workflow for turning observations into a structured representation of Reality.
-
-## Skill Backlog
-
-| Skill | Status | Purpose |
-|---|---|---|
-| Reality Scout | Candidate | Transform raw signals into structured Reality and decision-relevant patterns |
-| Capability Assessment | Candidate | Evaluate capability against evidence and identify meaningful gaps |
-| Gap Analysis | Backlog | Compare current Reality with desired Reality and prioritize intervention |
-| Runtime Review | Backlog | Compare intent, implementation, expected behavior, and actual Runtime results |
-| Solution Package Design | Future flagship | Transform customer Reality into an implementation-ready Solution Package |
+```text
+Idea
+↓
+Candidate
+↓
+Developing
+↓
+Runtime-tested
+↓
+Evidence-backed
+↓
+Reusable
+```
 
 ## When should a Skill be extracted?
 
-A workflow becomes a Skill candidate when one or more signals appear:
+A workflow becomes a Skill candidate when:
 
-- The work has been repeated.
-- A recognizable workflow is emerging.
-- We do not want to rediscover the process next time.
-- An AI agent needs explicit instructions to perform the work consistently.
-- The output has a recognizable quality bar.
+- the work has been repeated
+- a recognizable workflow is emerging
+- we do not want to rediscover the process next time
+- an AI agent needs explicit instructions to perform the work consistently
+- the output has a recognizable quality bar
 
-## Skill Template
-
-Each mature Skill should eventually contain:
+## Standard Skill Structure
 
 ```text
 skills/<skill-name>/
-├── SKILL.md
+├── README.md
 ├── examples/
 └── evidence/
 ```
 
-Suggested `SKILL.md` structure:
+As a Skill matures, its documentation should make explicit:
 
 - Purpose
 - Trigger
@@ -81,6 +109,6 @@ Suggested `SKILL.md` structure:
 
 > **Runtime → Pattern → Skill**
 
-Do not write Skills ahead of Reality.
+Do not mistake a documented workflow for a proven capability.
 
 > **Skills are compressed Runtime, not imagined instructions.**
