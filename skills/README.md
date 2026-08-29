@@ -29,6 +29,10 @@ A Skill is therefore never considered complete simply because its `SKILL.md` exi
 
 It is a hypothesis about a reusable way of working until Runtime produces evidence.
 
+## Current Skills
+
+- [Reality Scout](reality-scout/README.md) — developing workflow for turning observations into a structured representation of Reality.
+
 ## Skill Backlog
 
 | Skill | Status | Purpose |
