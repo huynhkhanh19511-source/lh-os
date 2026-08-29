@@ -24,34 +24,77 @@ lh-os/
 │   ├── pattern_recognition/
 │   └── structural_analysis/
 │
-├── domains/
-│   └── contract/
+├── runtime/
+│   └── sensemaking/
 │
-├── artifacts/
+├── cases/
+│   └── contract-analysis/
+│       ├── input/
+│       ├── run/
+│       ├── artifacts/
+│       └── evidence/
+│
 ├── tests/
 └── docs/
 ```
 
-## Runtime Organization
+## Organization Principle
+
+LH OS separates the repository into two primary boundaries:
+
+### Shared Capabilities
 
 ```text
-Sensemaking Runtime
-│
-├── Agent
-│   └── sensemaking/
-│
-├── Skills
-│   ├── pattern_recognition/
-│   └── structural_analysis/
-│
-├── Cases
-│   └── Contract Analysis
-│
-├── Artifacts
-└── Tests
+agent/
+skills/
+runtime/
+tests/
 ```
 
-`domains/` is retained for the current MVP implementation. Conceptually, Contract Analysis is a **Case** rather than an Agent or a top-level architectural layer. A future cleanup may move domain-specific runtime cases under `cases/` once the abstraction is validated by runtime evidence.
+These represent reusable system capabilities that may serve multiple reality cases.
+
+### Reality Cases
+
+```text
+cases/
+└── <case>/
+    ├── input/
+    ├── run/
+    ├── artifacts/
+    └── evidence/
+```
+
+A **Case** is a self-contained reality experiment. Opening one case should reveal its full lifecycle:
+
+```text
+Reality Input
+    ↓
+Execution
+    ↓
+Artifact
+    ↓
+Evidence
+```
+
+This keeps case-specific material colocated while preserving shared capabilities at the system level.
+
+## Current Case
+
+`contract-analysis` is the first runtime case:
+
+```text
+cases/contract-analysis/
+├── input/
+│   └── sample-contract.md
+├── run/
+│   └── run.md
+├── artifacts/
+│   └── sample-analysis.md
+└── evidence/
+    └── M0.1-first-run.md
+```
+
+Contract Analysis is a **Case**, not an Agent, domain layer, or identity of LH OS.
 
 ## Future Extraction Candidates
 
