@@ -1,23 +1,29 @@
 # LH OS
 
-> **Turn messy reality into structured understanding, better decisions, reusable artifacts, and evidence that improves the system.**
+> **Turn messy reality into structured understanding, executable capability, observable outcomes, and evidence that improves the system.**
 
 ## What is LH OS?
 
-LH OS is an experimental **Decision & Sensemaking System**.
+LH OS is an experimental **Sensemaking → Capability → Runtime System**.
 
-Its job is simple:
+Its job is:
 
 ```text
 Reality
   ↓
 Sensemaking
   ↓
-Structured Reality
+Structured Understanding
   ↓
 Decision
   ↓
+Capability
+  ↓
 Artifact
+  ↓
+Runtime
+  ↓
+Outcome / Failure
   ↓
 Evidence
   ↓
@@ -28,9 +34,11 @@ Most knowledge systems help us store information or understand ideas.
 
 LH OS asks a further question:
 
-> **Can understanding be turned into a reusable decision process, tested against reality, and improved through evidence?**
+> **Can understanding be compiled into reusable capability, exposed to Reality, and improved through evidence?**
 
 That is what this repository is exploring.
+
+---
 
 ## The Problem
 
@@ -42,7 +50,7 @@ Complex reality is usually messy:
 - decisions depend on interpretation
 - useful reasoning often disappears after the moment
 
-The result is repeated sensemaking from scratch.
+The result is repeated sensemaking from scratch — or elegant models that never meet Reality.
 
 LH OS attempts to create a reusable loop:
 
@@ -53,14 +61,156 @@ Make relationships visible
     ↓
 Form a structured view
     ↓
-Support a decision
+Make a decision
     ↓
-Leave a reusable artifact
+Build a usable capability
     ↓
-Observe what happened
+Run it against Reality
     ↓
-Improve the way we understand reality
+Observe outcome or failure
+    ↓
+Leave evidence
+    ↓
+Improve the system
 ```
+
+---
+
+## Strategic Direction: Reality Contact
+
+The current phase is **not to expand LH OS wider**.
+
+It is to make LH OS **touch Reality more often and more honestly**.
+
+> **The next frontier is not more architecture. It is resistance.**
+
+### 1. Notion = TERRAIN / Control Plane
+
+Notion holds the strategic and cognitive state:
+
+- Reality Map
+- Market / Customer / Role context
+- Gap Map
+- Capability diagnosis
+- Project state
+- Ownership
+- Risks
+- Decisions
+- Belief updates
+
+Its job is to answer:
+
+> **What reality are we facing, what matters, and what should happen next?**
+
+### 2. GitHub = FACTORY / Execution & Proof
+
+GitHub holds things that can:
+
+- execute
+- test
+- fail
+- iterate
+- version
+- produce artifacts
+- produce evidence
+
+Its job is to answer:
+
+> **Can the idea actually run?**
+
+### 3. Runtime = DEPLOYMENT LOOP
+
+```text
+Reality
+  ↓
+Sense
+  ↓
+Structure
+  ↓
+Decision
+  ↓
+Build
+  ↓
+Run
+  ↓
+Failure / Outcome
+  ↓
+Evidence
+  ↓
+Belief Update
+  ↓
+Next Loop
+```
+
+Runtime gives Reality the right to contradict the model.
+
+---
+
+## Capability Development Loop
+
+A capability gap should not remain an abstract weakness.
+
+It should become a concrete runtime challenge:
+
+```text
+Market Reality
+  ↓
+Gap Map
+  ↓
+Capability Diagnosis
+  ↓
+Proof Required
+  ↓
+Runtime Challenge
+  ↓
+Implementation
+  ↓
+Artifact
+  ↓
+Outcome / Failure
+  ↓
+Evidence
+  ↓
+Belief Update
+```
+
+This turns development from:
+
+> Learn → feel more prepared
+
+into:
+
+> Gap → challenge → run → evidence → capability
+
+---
+
+## Ownership Runtime
+
+A system also needs to hold an objective across time.
+
+Every active project should expose:
+
+```text
+Objective
+↓
+Current State
+↓
+Next Action
+↓
+Blocker
+↓
+Risk
+↓
+Decision Needed
+↓
+Evidence
+↓
+Outcome
+```
+
+Ownership is therefore treated as a runtime capability, not merely a personal trait.
+
+---
 
 ## What LH OS is not
 
@@ -74,88 +224,79 @@ LH OS is **not primarily**:
 
 Those can be parts of the system.
 
-The identity of LH OS is the **loop that connects Reality → Understanding → Decision → Evidence**.
+The identity of LH OS is the **closed loop connecting Reality → Understanding → Capability → Runtime → Evidence**.
 
-## How it works
-
-The current sensemaking pipeline is:
-
-```text
-Reality
-  ↓
-Extract Primitives
-  ↓
-Map Relationships
-  ↓
-Form Structure
-  ↓
-Identify Decision Signals
-  ↓
-Produce Artifact
-  ↓
-Collect Evidence
-```
-
-### Core concepts
-
-| Concept | Meaning |
-|---|---|
-| **Reality** | The situation, input, or environment being understood |
-| **Primitive** | A basic unit extracted from reality |
-| **Relationship** | A meaningful connection between primitives |
-| **Structure** | An organized representation of the reality |
-| **Decision Signal** | Information that changes or supports a decision |
-| **Artifact** | A persistent output that can be reused, inspected, or communicated |
-| **Evidence** | Observation from runtime that can update belief or system design |
-| **Case** | A concrete reality used to test the system |
+---
 
 ## System vs Case
 
 LH OS is the **system**.
 
-A Contract Analysis is only one **case used to test the system**.
+A Contract Analysis or Reality Scout is a **case used to test the system**.
 
 ```text
 LH OS
 │
-├── Shared Sensemaking Capabilities
+├── Shared Sensemaking & Execution Capabilities
 │
 └── Reality Cases
     ├── Contract Analysis
+    ├── Reality Scout
     ├── JD Analysis
-    ├── Market Scout
     └── ...
 ```
 
 Each case asks:
 
-> Can the same underlying sensemaking logic produce useful results when reality changes?
+> Can the underlying system survive contact with a different kind of Reality?
 
-## Current Proof
+---
 
-The first runtime case is **Contract Analysis**:
+## Current Runtime Battles
+
+The immediate focus is deliberately narrow:
+
+### 1. Contract Analysis MVP
+
+Tests:
 
 ```text
-Contract Text
-  ↓
-Primitives
-  ↓
-Relationships
-  ↓
-Structured Contract
-  ↓
+Messy Contract
+↓
+Structure
+↓
 Decision Signals
-  ↓
-Decision Artifact
-  ↓
-Runtime Evidence
+↓
+Artifact
+↓
+Runtime
+↓
+Evidence
 ```
 
-This is not meant to prove that LH OS is a contract system.
+### 2. Reality Scout
 
-It tests a more general hypothesis:
+Tests:
 
-> **A messy reality can be transformed through explicit intermediate representations into a reusable decision artifact.**
+```text
+External Reality
+↓
+Signal Collection
+↓
+Pattern / Structure
+↓
+Decision-Relevant Intelligence
+↓
+Artifact
+↓
+Evidence
+```
+
+The purpose is not to create two more projects.
+
+The purpose is to generate **two real pressure tests for LH OS**.
+
+---
 
 ## Repository Structure
 
@@ -177,19 +318,22 @@ lh-os/
 └── docs/        # supporting models
 ```
 
-A case is a complete vertical slice:
+A case should form a complete vertical slice:
 
 ```text
-Input → Run → Artifact → Evidence
+Reality → Run → Artifact → Outcome → Evidence
 ```
+
+---
 
 ## Why GitHub?
 
-This repository is the execution and proof layer of LH OS.
+This repository is the **execution and proof layer** of LH OS.
 
-- **Notion** holds broader knowledge, theory, architecture, and decisions.
-- **GitHub** holds executable capabilities, cases, artifacts, tests, and version history.
-- **Runtime** creates observations that can challenge the theory.
+- **Notion** = terrain + control plane
+- **GitHub** = execution + proof
+- **Runtime** = contact with Reality
+- **Evidence** = mechanism for system revision
 
 ```text
 Theory
@@ -198,11 +342,19 @@ System Design
   ↓
 Runtime
   ↓
+Outcome / Failure
+  ↓
 Evidence
   ↓
 Theory Update
 ```
 
+---
+
 ## Current Principle
 
 > **Build the smallest executable capability that can produce evidence capable of changing the system.**
+
+## Current Strategic Rule
+
+> **Do not build LH OS wider. Build it closer to Reality.**
