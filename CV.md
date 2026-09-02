@@ -1,207 +1,201 @@
-# LH — Architectural Sensemaking / Forward Deployed AI Architecture
+# LH — Curriculum Vitae
 
-## Positioning
+**Target Profile:** Architectural Sensemaking / Forward Deployed AI Architecture  
+**Location:** Ho Chi Minh City, Viet Nam | Open to SEA opportunities and travel  
+**GitHub:** https://github.com/huynhkhanh19511-source  
+**Contact:** [add email] | [add LinkedIn]
 
-**Architectural Sensemaking** at the boundary of ambiguous problems, decision systems, AI solution design, and runtime.
+## Profile
 
-I work from messy reality toward a deployable path:
+Architectural Sensemaker focused on turning ambiguous business reality into deployable systems — and understanding what happens when those systems encounter Runtime.
 
-```text
-Reality
-→ Sensemaking
-→ Decision
-→ Solution Design
-→ Solution Package
-→ Build
-→ Runtime
-→ Evidence
-→ Better Architecture
-```
+Strongest capabilities sit across **problem framing, systems thinking, context mapping, architecture, and connecting technical intervention to business reality**. Current development is deliberately moving deeper into implementation, debugging, evaluation, production behavior, and end-to-end ownership.
 
-My strongest demonstrated capabilities are problem framing, systems thinking, structural analysis, context mapping, pattern recognition, and turning scattered signals into coherent decision terrain. I am deliberately extending these strengths downstream into implementation, debugging, deployment, and outcome ownership.
+> **Architecture is not complete until it encounters Runtime.**
 
-> **Architecture is not complete until it encounters Runtime. Ownership is not complete until it encounters Outcome.**
+Interested in Forward Deployed Architect / Forward Deployed Engineer / AI Solutions Architecture roles where customer reality, technical judgment, implementation, and production feedback must remain connected end-to-end.
 
-## Core capabilities
+## Core Capabilities
 
+### Architectural & Strategic
 - Problem framing in ambiguous environments
-- Architectural sensemaking and systems thinking
-- Structural analysis, topology mapping, and pattern recognition
-- Research, hypothesis formation, evidence synthesis, and decision design
+- Systems thinking and structural analysis
 - Context mapping across business, technical, and operational constraints
-- AI-assisted reasoning, research, prototyping, and implementation
-- Solution Package design: translating decisions into deployable capability
-- Ownership architecture: making intent, boundaries, dependencies, risks, and decision rights explicit
-- Runtime-oriented artifact and evaluation design
+- Translating messy reality into structured decision terrain
+- Architecture and artifact design
+- Identifying bottlenecks and intervention points
+- Mapping dependency chains and potential domino failures
+- Connecting disparate signals into coherent system models
 
-## Current development frontier
+### AI & Solution Design
+- AI-assisted reasoning and implementation
+- RAG / retrieval-oriented system exploration
+- Agent and workflow architecture
+- Evaluation and verification mindset
+- Human-in-the-loop decision systems
+- Runtime feedback loops
+- AI system failure analysis across data, retrieval, model, application, and business boundaries
 
-The main gap is not conceptual architecture; it is **downstream runtime ownership**:
+### Technical & Runtime Development
+- Python implementation
+- Testing with pytest
+- Debugging and runtime inspection
+- Retrieval pipelines
+- APIs and system boundaries
+- Algorithms and data structures foundations
+- Production software development through hands-on product work
 
-- Practical engineering depth
-- Debugging and production exposure
-- Technical judgment under real constraints
-- Sustained coordination across time and dependencies
-- Deployment and failure handling
-- Outcome accountability and external proof
-- Compression: reducing complexity instead of adding abstraction
+## Professional Experience
+
+### Software Engineer — Shopify App Company
+**Current**
+
+Building and operating software in a real product environment, extending the transition from architectural reasoning into production-oriented implementation and runtime feedback.
+
+Focus areas include:
+- Working with real customer/product workflows
+- Turning requirements into working software
+- Understanding application behavior beyond the architecture diagram
+- Developing stronger implementation, debugging, integration, and runtime judgment
+- Learning through direct exposure to production constraints and failure modes
 
 ## Selected Work
 
-### LH OS — Decision & Sensemaking System
-**Role: Designer, Builder & Project Owner**
+### LH OS — Executable System for Architectural Sensemaking
+**Role:** Designer & Builder
 
-A personal executable system for turning reality into structured decisions, artifacts, runtime evidence, and system updates.
+Designed LH OS as a meta-system that connects thinking to execution:
 
 ```text
-Reality
-  ↓
-Sensemaking
-  ↓
-Structured Reality
-  ↓
-Decision
-  ↓
-Artifact
-  ↓
-Evidence
-  ↓
-System Update
+Reality → Sensemaking → Architecture → Implementation → Runtime
+        → Failure / Evidence → Learning → Updated Architecture
 ```
 
-The system is intentionally developed through **Reality Cases** rather than abstract framework expansion. Each case pressure-tests the architecture and produces evidence that can change it.
+Mission:
 
-Current cases:
+> Convert architectural judgment into runtime evidence — and convert runtime evidence back into better judgment.
 
-- **Contract Analysis** — tests whether explicit intermediate representations can transform messy documents into useful decision artifacts.
-- **Demand Node Scout** — pressure-tests market reality by moving from individual job listings toward the nodes that generate recurring missions and access paths.
+System roles:
+- **Notion** — memory, knowledge, architecture, decisions
+- **GitHub** — implementation, experiments, tests, artifacts, version history
+- **Sensemaking Runtime** — reusable capabilities executed against reality
+- **Feedback** — evidence used to update the architecture
 
-Current Demand Node Scout hypothesis:
+A central design principle is that ownership cannot be reduced to approving artifacts. A person responsible for an AI-enabled system must be able to understand enough of its architecture, code behavior, data flow, API boundaries, evaluation methodology, deployment constraints, and failure modes to preserve causal continuity from decision through execution and outcome.
+
+### Contract Analysis — Runtime Case
+**Role:** Architecture & Implementation
+
+Using contract analysis as a concrete runtime case for LH OS:
 
 ```text
-Market Reality
-→ Demand Node
-→ Mission
+Contract Reality
+→ Extraction / Retrieval
+→ Structured Contract State
+→ Rights / Obligations / Risks / Constraints
+→ Decision Artifact
+→ Human Feedback
+→ Evaluation
+→ System Improvement
+```
+
+The case is deliberately treated as more than an AI document-Q&A problem. It tests whether an intervention can survive real operational pressure, including:
+- **Bottlenecks** — where a workflow stops scaling or progressing
+- **Domino failures** — where a local error propagates into downstream decisions and operational consequences
+
+The project builds practical capability in implementation, debugging, verification, evaluation, and runtime ownership while testing architectural assumptions against concrete evidence.
+
+### Demand Node Scout — Market Reality Case
+**Role:** Architecture & Sensemaking
+
+A reality-first scout for discovering where economic and deployment demand is actually being generated rather than treating job postings as demand itself.
+
+```text
+Demand Origin
+→ Demand Generator
+→ Demand Surface
 → Access Vector
-→ Action
-→ Evidence
+→ Capability Gap
+→ Deployment Opportunity
 ```
 
-The current architectural question is whether `DemandNode → Mission → Access Vector` is a sufficiently stable representation for turning market reality into actionable decisions.
+The case tests LH OS's ability to connect market signals, organizational topology, capability requirements, and feasible deployment paths.
 
-### Contract Analysis — Runtime Dojo
-**Role: Architecture, Implementation & Outcome Ownership**
+## Architectural Focus
 
-A concrete AI-assisted case for structured extraction, relationship mapping, decision artifacts, evaluation, testing, debugging, human feedback, and runtime evidence.
+Current work increasingly centers on **intervention topology**: understanding where a system is under pressure and what kind of intervention is required.
 
-The case is used to test whether architectural primitives survive contact with a real domain and whether reasoning can be traced into observable runtime behavior.
+Two fundamental pressure patterns are:
 
-## Solution-to-Deployment Orientation
+| Pressure | Core Question | Intervention Goal |
+|---|---|---|
+| **Bottleneck** | Where does the flow stop scaling or progressing? | Remove or shift the constraint |
+| **Domino** | If this node fails, what fails next? | Contain propagation and protect critical outcomes |
 
-The development direction is **decision-to-deployment**, not architecture in isolation:
+This provides a practical bridge between architectural sensemaking and Forward Deployed work: enter Reality, identify pressure, locate the intervention surface, build the smallest useful capability, and verify the result in Runtime.
+
+## Technical Learning Approach
+
+**Project-driven primitive acquisition:**
 
 ```text
-Problem
-  ↓
-Decision
-  ↓
-Solution Design
-  ↓
-Solution Package
-  ↓
-Build
-  ↓
-Deploy
-  ↓
-Evaluate
-  ↓
-Evidence
-  ↓
-Improve
+Real Project → Implementation Need → Technical Primitive
+→ Runtime Failure → Debugging → Verified Understanding
 ```
 
-A **Solution Package** is treated as the bridge between architectural judgment and engineering execution. It should make the problem, requirements, decision logic, architecture, components, interfaces, artifacts, evaluation, and runtime contract explicit enough for implementation.
+Active development areas:
+- Algorithms and data structures
+- Complexity reasoning
+- Retrieval and embeddings
+- APIs and system boundaries
+- Testing
+- Debugging
+- Evaluation
+- Runtime observability
+- Production software behavior and failure modes
 
-This creates a deliberate capability ladder:
+> **Do not outsource understanding, verification, or ownership to AI.**
 
-| Level | Evidence to produce |
+## Professional Direction
+
+Target environments requiring:
+- Entering ambiguous customer or business contexts
+- Discovering the real problem beneath surface requirements
+- Mapping flows, dependencies, bottlenecks, and failure propagation
+- Structuring messy data and constraints
+- Designing AI/system architecture
+- Collaborating closely with implementation
+- Testing systems against reality
+- Debugging failures and incorporating feedback
+- Taking ownership through measurable outcomes
+
+**Primary target:** Forward Deployed Architect / AI Deployment Architect  
+**Adjacent roles:** Forward Deployed Engineer, AI Solutions Architect, Applied AI / Agentic Systems
+
+## Current Capability Snapshot
+
+| Capability | Current assessment |
 |---|---|
-| L0 | Understand the problem |
-| L1 | Make a defensible decision |
-| L2 | Design a solution |
-| L3 | Build the solution |
-| L4 | Deploy the solution |
-| L5 | Operate under uncertainty and create measurable outcome |
+| Problem framing | Strong |
+| Systems thinking | Very strong |
+| Context mapping | Strong |
+| Connecting disparate ideas | Strong |
+| Business / strategic context | Good |
+| AI collaboration | Very strong |
+| Knowing when AI is wrong | Developing; good reasoning foundation |
+| Verification | Growing through runtime |
+| Debugging | Growing through hands-on practice |
+| Implementation fluency | Actively strengthening through product work |
+| Algorithms / DS | Clear development area |
+| Production code ownership | Developing through current product role and LH OS runtime work |
 
-## Demand / Mission Orientation
+## Operating Principles
 
-I no longer treat the job listing as the primary unit of analysis.
-
-The more useful unit is the **Demand Node**: a company, client surface, delivery organization, partner, ecosystem, or other node capable of repeatedly generating missions.
-
-```text
-JD
- ↓
-Company
- ↓
-Client / Project
- ↓
-Delivery Node
- ↓
-Partner / Ecosystem
-```
-
-The objective is to identify **mission density, access vectors, bridgeability, and evidence**, then convert that terrain into action.
-
-This reflects the broader operating thesis:
-
-> **Don't hunt jobs. Hunt the nodes that generate missions.**
-
-## Professional trajectory
-
-**Current direction:** Architectural Sensemaking → Forward Deployed AI Architecture.
-
-**Development vector:**
-
-```text
-Sensemaking
-→ Architecture
-→ Ownership
-→ Coordinated Execution
-→ Implementation
-→ Runtime
-→ Failure
-→ Outcome
-→ Evidence
-→ Better Architecture
-```
-
-Target environments:
-
-- Forward Deployed Architect
-- Forward Deployed Engineer / AI Solutions
-- AI Deployment Architect
-- Decision Systems Architect
-- AI Solutions Architecture
-- Applied AI / Agentic Systems
-
-The intended role boundary is the space between **architectural judgment and deployment reality**: understand the problem deeply enough to design the right system, then stay close enough to implementation and runtime to learn from what actually happens.
-
-## Operating principles
-
-1. Reality is the final evaluator.
-2. Abstraction cannot escape Runtime.
-3. Understanding precedes delegation.
-4. AI can accelerate output but cannot inherit ownership.
-5. Evidence must be capable of changing belief.
-6. Build the smallest executable capability that can produce useful evidence.
-7. Do not add architecture because it looks complete; add it when Reality creates pressure for it.
-8. Generalize only after repeated Cases demonstrate a stable pattern.
-
-## Capability thesis
-
-The next stage is not to become more abstract or build more frameworks.
-
-It is to become **expensive to ignore** by creating systems, artifacts, and outcomes that leave visible traces in Reality.
-
-> **Move from designing terrain to owning movement across terrain.**
+1. **Abstraction cannot escape Runtime.**
+2. **Understanding precedes delegation.**
+3. **Failure is a learning artifact.**
+4. **Architecture must survive contact with reality.**
+5. **AI can accelerate output, but cannot inherit ownership.**
+6. **Find the bottleneck before optimizing the system.**
+7. **Trace the domino before intervening in a critical system.**
+8. **Ownership means preserving causal continuity from Reality to Outcome.**
