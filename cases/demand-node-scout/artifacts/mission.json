@@ -1,0 +1,40 @@
+{
+  "origin": "Newbridge",
+  "node_type": "bridge_node",
+  "objective": "Translate enterprise AI customer problems into deployable production solutions across the regional delivery topology.",
+  "required_capabilities": [
+    "problem framing",
+    "solution architecture",
+    "customer-facing AI deployment",
+    "RAG / agent systems",
+    "evaluation"
+  ],
+  "constraints": [
+    "messy real-world customer requirements",
+    "production delivery expectations",
+    "regional / cross-border execution"
+  ],
+  "access_surface": [
+    "forward-deployed architecture role",
+    "customer/project delivery"
+  ],
+  "relationships": [
+    {"to": "Rwazi", "relation": "architect_decision_reference"},
+    {"to": "LARION", "relation": "engineering_deployment_reference"}
+  ],
+  "evidence": [
+    "role structure connecting customer problem to production AI delivery",
+    "regional execution surface with Vietnam relevance"
+  ],
+  "observed_signals": [
+    "customer-facing AI deployment work",
+    "forward-deployed architect pattern",
+    "production RAG, agents, fine-tuning and evaluation",
+    "Vietnam/Bangkok execution surface"
+  ],
+  "inference": {
+    "status": "inferred",
+    "confidence": "working_hypothesis",
+    "rule": "Mission fields are derived from observable node signals; they are not treated as direct facts."
+  }
+}
