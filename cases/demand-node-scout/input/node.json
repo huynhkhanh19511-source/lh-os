@@ -1,0 +1,25 @@
+{
+  "node": {
+    "name": "Newbridge",
+    "type": "bridge_node",
+    "terrain": "Enterprise AI deployment across SEA",
+    "signals": [
+      "customer-facing AI deployment work",
+      "forward-deployed architect pattern",
+      "production RAG, agents, fine-tuning and evaluation",
+      "Vietnam/Bangkok execution surface"
+    ],
+    "relationships": [
+      {"to": "Rwazi", "relation": "architect_decision_reference"},
+      {"to": "LARION", "relation": "engineering_deployment_reference"}
+    ],
+    "access_vectors": [
+      "forward-deployed architecture role",
+      "customer/project delivery"
+    ],
+    "evidence": [
+      "role structure connecting customer problem to production AI delivery",
+      "regional execution surface with Vietnam relevance"
+    ]
+  }
+}
