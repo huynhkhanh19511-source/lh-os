@@ -1,126 +1,195 @@
 # Reality Scout
 
-> Reconstruct fragmented Reality into a connected, inspectable Reality Map before judgment or intervention.
+> Reconstruct Reality from fragmented nodes and perspectives, triangulate it against the external world, and feed the resulting evidence back into the principles used to understand Reality.
 
-Reality Scout is a core skill in LH OS for making sense of fragmented customer Reality before other skills operate on it.
+Reality Scout is the first sensemaking skill in LH OS. It exists before judgment, assessment, or intervention.
 
-It does not primarily answer **what should we do?**
-
-It first answers:
-
-> **What world are we actually looking at, how are its pieces connected, and why does it look this way from the customer's position?**
-
----
-
-## Why Reality Scout Exists
-
-Reality rarely arrives as a coherent system.
-
-A customer may send:
-
-- documents
-- presentations
-- process descriptions
-- architecture diagrams
-- metrics
-- screenshots
-- logs
-- requirements
-- complaints
-- meeting notes
-- system information
-- statements from different people
-
-These are not a Reality yet.
-
-They are **nodes scattered across a multi-dimensional Reality space**.
-
-```text
-                    PEOPLE
-                       │
-                       │
-        PROCESS ───────┼────── SYSTEM
-                       │
-                       │
-        DATA ──────────┼────── DECISION
-                       │
-                       │
-                    OUTCOME
-```
-
-Each artifact exposes only a fragment of the world.
-
-The meaning is often not inside an individual node.
-
-**Meaning emerges from the relationships between nodes.**
-
-Therefore:
-
-```text
-Fragmented Inputs
-       ↓
-    Nodes
-       ↓
-Relationships
-       ↓
-Patterns
-       ↓
-Meaning
-       ↓
-Shared Reality
-```
-
-Reality Scout exists to perform this reconstruction.
-
----
-
-## Core Mission
+Its core principle is:
 
 > **Connect the dots before judging the dots.**
 
-The first job is not to assess capability, identify gaps, review runtime, or design a solution.
+---
 
-The first job is to understand the structure that the customer's fragments collectively describe.
+## 1. Why Reality Scout Exists
+
+Customer Reality rarely arrives as a coherent system.
 
 ```text
-Customer Reality
-      ↓
-[ Reality Scout ]
-      ↓
-Shared Reality Map
-      ↓
-┌──────────────┬──────────────┬──────────────┐
-│ Capability   │ Gap          │ Runtime      │
-│ Assessment   │ Analysis     │ Review       │
-└──────────────┴──────────────┴──────────────┘
-                     ↓
-             Solution Package Design
+Documents
+Metrics
+Processes
+Systems
+People
+Decisions
+Incidents
+Complaints
+Architecture
+Assumptions
+Constraints
+        ↓
+ fragmented nodes
+        ↓
+ unknown relationships
+        ↓
+ incomplete meaning
 ```
 
-The downstream skills should **consume a reconstructed Reality**, rather than each trying to rediscover the customer's world independently.
+A node is not Reality by itself. Meaning emerges from the relationships between nodes.
+
+If downstream skills assess isolated fragments, they may produce locally reasonable conclusions that are wrong at the system level.
+
+Reality Scout therefore reconstructs the shared substrate first.
+
+```text
+Fragmented Reality
+       ↓
+    Discover
+       ↓
+      Nodes
+       ↓
+    Connect
+       ↓
+ Relationships
+       ↓
+      Check
+       ↓
+ Pattern / Structure / Uncertainty
+       ↓
+ Shared Reality
+       ↓
+ Downstream Skills
+```
 
 ---
 
-## The Reality Scout Question
+## 2. The Three-Sided Reality
 
-Reality Scout continuously asks two questions.
+Reality Scout is not a two-party analysis between LH and the customer.
 
-### 1. Our Position — What do we feel?
+It operates across **three sources of Reality**:
 
-When we encounter the material, observe our own signals:
+```text
+                    EXTERNAL REALITY
+                  research / evidence
+                         ↕
+                         │
+                         ↓
+                  ┌───────────────┐
+                  │ REALITY SCOUT │
+                  └───────┬───────┘
+                          ↕
+                    SHARED REALITY
+                       ↕       ↕
+                      LH     CUSTOMER
+```
 
-- What feels clear?
-- What feels confusing?
-- What feels incomplete?
-- What feels contradictory?
-- What feels suspicious?
-- What feels unusually emphasized?
-- What seems to be missing?
-- What creates the feeling that "something does not connect"?
+### LH — Our Position
 
-These feelings are **signals, not facts**.
+Provides:
 
-Intuition is used as a sensor for deciding where to investigate.
+- principles
+- frameworks
+- hypotheses
+- intuition
+- questions
+- interpretations
+
+LH's intuition is a **sensor**, not evidence.
+
+### Customer — Situated Reality
+
+Provides:
+
+- internal documents
+- metrics
+- workflows
+- systems
+- incidents
+- constraints
+- lived experience
+- organizational context
+- corrections and feedback
+
+Customer material contains both **information** and **perspective**.
+
+### External World — Independent Reality
+
+Provides an outside reference point through online research and other external evidence:
+
+- public data
+- market information
+- regulations
+- technical documentation
+- research
+- industry patterns
+- competitors
+- events and news
+- external benchmarks
+
+External research is not merely "more information". It is a mechanism for **triangulation** and for testing whether an internal interpretation survives contact with the world outside the customer boundary.
+
+---
+
+## 3. Reality Scout as Triangulation
+
+The Scout continuously compares the three positions.
+
+```text
+              LH
+        principles / hypotheses
+              │
+              │
+              ↓
+      ┌─────────────────┐
+      │  REALITY SCOUT  │
+      │                 │
+      │ Discover        │
+      │ Connect         │
+      │ Research        │
+      │ Verify          │
+      │ Reconstruct     │
+      │ Learn           │
+      └───────┬─────────┘
+              │
+       ┌──────┴──────┐
+       ↓             ↓
+  CUSTOMER       EXTERNAL
+   REALITY        REALITY
+       └──────┬──────┘
+              ↓
+       TRIANGULATED
+          REALITY
+```
+
+The Scout asks:
+
+- What does LH believe?
+- What does the customer claim or observe?
+- What does the external world support or contradict?
+- Where do the three align?
+- Where do they conflict?
+- What remains unknown?
+
+The goal is not to force agreement.
+
+The goal is to make disagreement and uncertainty **inspectable**.
+
+---
+
+## 4. Our Position and Customer Position
+
+### Our Position — What do we notice?
+
+When entering Reality, record signals such as:
+
+- confusion
+- surprise
+- suspicion
+- incompleteness
+- contradiction
+- unusual emphasis
+- unexplained behavior
+- missing information
 
 ```text
 Feeling
@@ -134,85 +203,39 @@ Evidence Check
 Confirm / Reject / Unknown
 ```
 
-> **Trust intuition enough to investigate it, but never enough to call it Evidence.**
+> **Trust intuition enough to investigate it, never enough to call it Evidence.**
 
----
-
-### 2. Customer Position — What are they feeling?
-
-Then change seats.
+### Customer Position — Why did they show us this?
 
 Ask:
 
-> **If I were the customer, why would I send these particular things?**
+> **If I were the customer, why would I provide these particular artifacts?**
 
-The material a customer chooses to provide is itself a signal about how they see Reality.
+Examples:
 
-For example:
-
-| What customer sends | Possible perspective |
+| Artifact | Likely perspective |
 |---|---|
-| Strategy deck | Management / strategic perspective |
-| Architecture diagram | Technology / system perspective |
-| SOP | Intended process perspective |
-| Incident logs | Failure / exception perspective |
-| KPI dashboard | Measurement / management perspective |
-| User complaints | Lived experience / consequence perspective |
-| Meeting notes | Organizational / political perspective |
+| Strategy deck | Management / strategic |
+| Architecture diagram | Technology / system |
+| SOP | Intended process |
+| Incident log | Failure / exception |
+| KPI dashboard | Measurement / management |
+| User complaints | Lived experience / consequence |
+| Meeting notes | Organizational / political |
 
-The artifact contains two layers:
-
-```text
-Artifact
-├── Information
-└── Perspective
-```
-
-Information tells us **what they know or claim**.
-
-Perspective tells us **from where they are looking at Reality**.
-
-Reality Scout must understand both.
+The gap between our position and the customer's position is often an **investigation surface**.
 
 ---
 
-## Perspective Gap
+## 5. Discover → Connect → Check → Reconstruct
 
-Our Reality and the customer's Reality may not initially be the same.
+Reality Scout performs four core operations.
 
-```text
-              REALITY
-                 │
-       ┌─────────┴─────────┐
-       ↓                   ↓
-  OUR POSITION       CUSTOMER POSITION
-       │                   │
-  What we notice      What they notice
-  What we feel       What they feel
-  What we question   What they emphasize
-       │                   │
-       └─────────┬─────────┘
-                 ↓
-          Perspective Gap
-                 ↓
-           Investigation
-                 ↓
-          Shared Reality
-```
+### Discover
 
-A Perspective Gap is not automatically a problem.
+Identify meaningful nodes in the available Reality.
 
-It is a signal that two observers may be looking at different dimensions, levels, or consequences of the same system.
-
-Sometimes the most important Problem is hidden precisely inside this gap.
-
----
-
-## Reality as a Multi-Dimensional Graph
-
-Reality Scout should think in terms of **nodes and relationships**, not isolated documents.
-
-### Possible node types
+Possible node types:
 
 ```text
 Actor
@@ -234,7 +257,9 @@ Evidence
 Unknown
 ```
 
-### Possible relationships
+### Connect
+
+Find relationships across nodes and across documents.
 
 ```text
 Cause → Effect
@@ -251,78 +276,46 @@ Exception → Failure Mode
 Capability → Outcome
 ```
 
-The exact ontology is not fixed.
+### Check
 
-The Scout should introduce structure only when the observed Reality requires it.
+Verify relationships and claims using:
 
-The central operation remains:
+1. internal customer evidence
+2. cross-node consistency
+3. customer feedback
+4. external research
+5. contradiction search
+
+Detect:
+
+- contradictions
+- unsupported claims
+- missing relationships
+- unexplained behavior
+- weak evidence
+- uncertainty
+
+### Reconstruct
+
+Transform verified relationships into:
 
 ```text
-Node
-  ↓
-Relationship
-  ↓
 Pattern
-  ↓
+   ↓
+Structure
+   ↓
 Meaning
+   ↓
+Shared Reality
 ```
+
+The Scout must preserve the difference between observation, interpretation, hypothesis, and validated belief.
 
 ---
 
-## Example — Reconstructing Meaning
+## 6. Evidence and Belief State
 
-Suppose the customer provides four artifacts:
-
-1. An architecture diagram showing an automated AI workflow.
-2. An SOP showing a human review step.
-3. A KPI showing processing time remains high.
-4. User complaints about inconsistent results.
-
-Reading each artifact independently produces four disconnected facts.
-
-Reality Scout connects them:
-
-```text
-Architecture
-      │
-      │ claims automation
-      ▼
-AI Capability
-      │
-      │ supposed to support
-      ▼
-Workflow
-      │
-      │ actual intervention
-      ▼
-Human Review
-      │
-      ▼
-Processing Delay
-      │
-      ▼
-Customer Complaint
-```
-
-Now the Reality has meaning.
-
-The Scout still should not immediately declare the final Problem.
-
-It should ask:
-
-- Is the human review mandatory or exceptional?
-- Why does it exist?
-- Is the AI output trusted?
-- Which stage creates the delay?
-- Does inconsistency originate in the model, data, workflow, or human decision?
-
-The connection creates the **investigation surface**.
-
----
-
-## Observation vs Interpretation
-
-Reality Scout must preserve the boundary between what is observed and what is inferred.
+Every important claim should carry an epistemic state.
 
 ```text
 Observed
@@ -333,112 +326,114 @@ Interpreted
    ↓
 Hypothesized
    ↓
-Validated / Rejected
+Verified / Rejected / Unknown
 ```
 
 Example:
 
-**Observed**
+**Observed** — SOP contains a mandatory human review step.
 
-> The SOP contains a mandatory human review step.
+**Connected** — Review occurs after AI output and before final action.
 
-**Connected**
+**Interpretation** — The workflow does not fully trust the AI output.
 
-> The review occurs after AI output and before the final operational action.
+**Hypothesis** — Human review may constrain scale.
 
-**Interpretation**
+**Unknown** — Whether review is mandatory for every case or only high-risk cases.
 
-> The workflow does not fully trust the AI output.
-
-**Hypothesis**
-
-> Human review may be a major constraint on scaling the workflow.
-
-**Unknown**
-
-> Whether review is required for every case or only high-risk cases.
-
-The Scout must never collapse these layers into one statement.
+A Reality Map should therefore expose **belief state + provenance**, not just prose.
 
 ---
 
-## Workflow
+## 7. External Research
 
-### 1. Capture
+Online research is a first-class Reality Scout operation.
 
-Collect the available customer Reality without prematurely organizing it.
+It is invoked when an internal claim, relationship, assumption, or hypothesis can be strengthened or challenged by information outside the customer boundary.
 
-### 2. Sense
+Research should answer a concrete epistemic question, for example:
 
-Read the material from our position.
+```text
+Claim
+  ↓
+What would support / contradict this?
+  ↓
+Research question
+  ↓
+External evidence
+  ↓
+Compare with Customer Reality
+  ↓
+Belief update
+```
 
-Record what feels:
+Research must not become a generic information dump.
 
-- clear
-- unclear
-- contradictory
-- suspicious
-- missing
-- unusually emphasized
+The Scout should prefer:
 
-### 3. Re-position
+- primary sources
+- official documentation
+- authoritative datasets
+- credible research
+- direct evidence
 
-Read the same material from the customer's position.
-
-Ask:
-
-- Why did they send this?
-- What are they trying to communicate?
-- What are they likely worried about?
-- What perspective dominates their material?
-- What perspective is absent?
-
-### 4. Extract Nodes
-
-Identify meaningful entities, facts, claims, events, constraints, actors, systems, and unknowns.
-
-### 5. Connect Nodes
-
-Search across documents and dimensions for meaningful relationships.
-
-Do not stop at document boundaries.
-
-### 6. Detect Structure
-
-Look for:
-
-- repeated relationships
-- causal chains
-- contradictions
-- bottlenecks
-- dependencies
-- missing links
-- isolated nodes
-- perspective gaps
-
-### 7. Form Meaning
-
-Describe the emerging structure without pretending that every inference is confirmed.
-
-### 8. Produce a Reality Map
-
-Return a compact representation of:
-
-- what is known
-- how things connect
-- what appears to matter
-- what conflicts
-- what is missing
-- what remains uncertain
-- what must be checked next
+and record where the external evidence came from and what claim it supports or challenges.
 
 ---
 
-## Reality Map
+## 8. The Principle Feedback Loop
+
+This is a defining capability of Reality Scout.
+
+The Scout does not only use principles to interpret Reality. Reality must be able to **change the principles**.
+
+```text
+PRINCIPLE
+   ↓
+HYPOTHESIS
+   ↓
+REALITY SCOUT
+   ↓
+┌──────────┬───────────┬───────────┐
+│    LH    │ CUSTOMER  │ EXTERNAL  │
+│          │  REALITY  │  REALITY  │
+└──────────┴───────────┴───────────┘
+             ↓
+       TRIANGULATION
+             ↓
+      SUPPORT / REFUTE
+        /      |      \
+       ↓       ↓       ↓
+    RETAIN   MODIFY  DISCARD
+       \       |       /
+        └──────┬──────┘
+               ↓
+       UPDATED PRINCIPLE
+               ↓
+              LOOP
+```
+
+Therefore Reality Scout is also a **principle feedback mechanism**.
+
+It asks two symmetrical questions:
+
+> **Reality → Principle:** What is Reality teaching us?
+
+and
+
+> **Principle → Reality:** Does this principle survive contact with Reality?
+
+Customer feedback is evidence in this loop, not merely approval of a report.
+
+External research provides another independent pressure on the principle.
+
+---
+
+## 9. Shared Reality
 
 The primary output is not a long report.
 
-It is a **Reality Map**.
+It is a **Reality Map** that can be inspected, challenged, corrected, and reused by downstream skills.
 
 ```markdown
 # Reality Map
@@ -447,57 +442,95 @@ It is a **Reality Map**.
 What part of Reality is being reconstructed?
 
 ## Nodes
-What meaningful entities / facts / signals were found?
+What meaningful entities, facts, signals, and unknowns were found?
 
 ## Relationships
 How are the nodes connected?
 
-## Observed Reality
-What is directly supported?
+## Evidence
+What supports each important relationship or claim?
 
 ## Perspectives
-How are we and the customer looking at Reality?
+How are LH, the customer, and the external world looking at Reality?
 
-## Emerging Patterns
+## Patterns
 What structure appears across multiple nodes?
 
 ## Contradictions
-Which nodes disagree?
+Where do sources disagree?
 
 ## Missing Links
-Which relationships are required to understand the system but are not yet visible?
+Which relationships are required but not yet visible?
 
 ## Unknowns
 What cannot yet be established?
 
 ## Hypotheses
-What explanations are plausible but unconfirmed?
+What explanations remain plausible but unconfirmed?
 
-## Confidence
-How stable is the current Reality model?
+## Belief State
+How stable is the current model?
+
+## Principle Feedback
+Which principles are supported, challenged, modified, or rejected?
 
 ## Next Question
 What single question would reduce the most uncertainty?
 ```
 
+The output should optimize for **inspectability**, not narrative elegance.
+
 ---
 
-## Boundary
+## 10. Runtime
+
+Reality Scout is designed for a fast first pass.
+
+```text
+T+0    Receive materials
+T+5    Discover nodes + sense signals
+T+10   Connect relationships
+T+15   Check contradictions / gaps
+T+20   Research highest-value unknowns
+T+25   Reconstruct initial Reality
+T+30   Produce Reality Map
+       ↓
+Customer correction / feedback
+       ↓
+Reality update
+```
+
+The first pass does not need to understand everything.
+
+It needs to understand enough structure to identify:
+
+- what is known
+- what is connected
+- what conflicts
+- what is missing
+- what should be researched
+- what question should be asked next
+
+> **Do not try to understand everything. Understand enough structure to know what to do next.**
+
+---
+
+## 11. Boundary
 
 Reality Scout is responsible for:
 
 - sensing Reality
 - extracting nodes
 - connecting nodes
-- mapping relationships
-- reconstructing context
-- detecting emerging patterns
-- identifying contradictions
+- researching external Reality
+- triangulating evidence
+- detecting contradictions
 - exposing missing links
 - preserving uncertainty
-- making perspective visible
+- reconstructing Shared Reality
+- feeding Reality back into principles
 
-Reality Scout is **not** responsible for:
+Reality Scout is not responsible for:
 
 - final capability assessment
 - formal gap analysis
@@ -507,122 +540,80 @@ Reality Scout is **not** responsible for:
 - forcing a clean narrative
 
 ```text
-Reality Scout
-      ↓
-Reconstructed Reality
-      ↓
-Capability Assessment
-Gap Analysis
-Runtime Review
-      ↓
-Solution Package Design
+                 REALITY
+                    ↓
+             REALITY SCOUT
+                    ↓
+        TRIANGULATED SHARED REALITY
+                    ↓
+        ┌───────────┼───────────┐
+        ↓           ↓           ↓
+   Capability      Gap       Runtime
+   Assessment    Analysis     Review
+        └───────────┼───────────┘
+                    ↓
+           Solution Package
+               Design
+                    ↓
+                 Runtime
+                    ↓
+                Evidence
+                    ↓
+             Reality Feedback
+                    ↓
+             Principle Update
+                    ↺
 ```
 
 ---
 
-## Downstream Contract
+## 12. Agent, Skill, and Architecture
 
-The downstream skills should not have to start from raw customer material whenever a Reality Map already exists.
+Reality Scout is a **skill**, not the whole agent.
 
-### Capability Assessment asks
-
-> What capabilities exist within this Reality?
-
-### Gap Analysis asks
-
-> Where does current Reality differ from required Reality?
-
-### Runtime Review asks
-
-> How does this Reality actually behave when the system runs?
-
-### Solution Package Design asks
-
-> Where and how can we intervene in this Reality?
-
-Reality Scout prepares the common substrate.
-
----
-
-## Core Principles
-
-### 1. Connect before judging
-
-> **Do not evaluate a node before understanding the structure it participates in.**
-
-### 2. Feeling is a sensor, not Evidence
-
-> Use intuition to find where to look; use evidence to decide what to believe.
-
-### 3. Customer material is also a perspective signal
-
-> What the customer sends tells us not only what they know, but how they are looking at Reality.
-
-### 4. Meaning lives in relationships
-
-> A collection of facts is not necessarily understanding.
-
-### 5. Preserve uncertainty
-
-> Unknown is a valid state of Reality.
-
-### 6. Do not solve too early
-
-> A good Scout makes the next skill more accurate; it does not steal the next skill's job.
-
-### 7. Reality must remain inspectable
-
-Every important interpretation should be traceable back to the nodes and relationships that produced it.
-
----
-
-## Runtime
-
-Reality Scout is designed as a fast first-pass runtime skill.
-
-### Target
-
-**15–30 minutes to create a first Reality Map from a messy customer input set.**
-
-The first pass does not need to be complete.
-
-It needs to be **good enough to expose the structure and the highest-value unknowns**.
+LH OS separates:
 
 ```text
-0–5 min
-Capture + Sense
+Architecture
+    ↓
+Decides where to intervene,
+what to preserve, and when to stop
 
-5–15 min
-Extract + Connect
+Skills / Toolbox
+    ↓
+Specific intervention capabilities
 
-15–25 min
-Patterns + Perspective Gaps
-
-25–30 min
-Reality Map + Next Question
+Agent
+    ↓
+Runtime operator that selects,
+sequences, and executes skills
 ```
 
-Then send the Reality Map back into the human feedback loop:
+Reality Scout is the **first blade**.
+
+The architecture decides where to cut.
+The skill defines how to cut.
+The agent holds the knife and operates it in Runtime.
+
+Do not begin by building a giant agent.
+
+Build in this order:
 
 ```text
-Scout
-  ↓
-Reality Map
-  ↓
-Customer: Correct / Reject / Add
-  ↓
-Reality Update
-  ↓
-Downstream Skill
+Principle
+   ↓
+Skill Contract
+   ↓
+Tools / Primitives
+   ↓
+Test Cases
+   ↓
+Agent Orchestration
 ```
-
-The goal is not to be perfectly right alone.
-
-The goal is to reach **shared Reality faster**.
 
 ---
 
-## Failure Modes
+## 13. Failure Modes
 
 Reality Scout fails when:
 
@@ -630,23 +621,25 @@ Reality Scout fails when:
 - relationships are invented without evidence
 - intuition is presented as fact
 - customer perspective is ignored
+- external research becomes an information dump
 - contradictions are smoothed away
 - missing links are treated as irrelevant
 - AI-generated assumptions become Reality
+- research is used to confirm rather than challenge a hypothesis
 - the Scout jumps directly into solution design
-- the output becomes a beautiful narrative that cannot be traced back to evidence
+- the output becomes a beautiful narrative that cannot be traced to evidence
 
-A particularly dangerous failure mode is:
+The most dangerous failure mode is:
 
-> **Premature coherence** — making fragmented Reality look complete before it actually is.
+> **Premature coherence — making fragmented Reality look complete before it actually is.**
 
-The Scout must prefer an incomplete but inspectable Reality Map over a complete-looking fiction.
+Prefer an incomplete but inspectable Reality Map over a complete-looking fiction.
 
 ---
 
-## Evolution
+## 14. Evolution
 
-Reality Scout improves through runtime.
+Reality Scout improves through Runtime, not only through documentation.
 
 ```text
 Runtime
@@ -655,53 +648,65 @@ Reality Map
    ↓
 Customer Correction
    ↓
+External Evidence
+   ↓
 Failure / Friction
    ↓
 New Pattern
    ↓
+Principle Update
+   ↓
 Skill Update
+   ↺
 ```
 
-The skill should become better at **seeing connections**, not merely better at producing reports.
+The skill should become better at **seeing, testing, and connecting Reality**, not merely better at producing reports.
 
 ---
 
-## Position in LH OS
+## 15. Position in LH OS
 
-Reality Scout is the first blade of the LH OS Runtime Toolbox.
+Reality Scout is the first sensemaking layer and first blade of the LH OS Runtime Toolbox.
 
 ```text
-                 MESSY REALITY
-                      ↓
-              ┌───────────────┐
-              │ REALITY SCOUT │
-              └───────┬───────┘
-                      ↓
-               REALITY MAP
-                      ↓
-        ┌─────────────┼─────────────┐
-        ↓             ↓             ↓
- Capability        Gap          Runtime
- Assessment       Analysis       Review
-        │             │             │
-        └─────────────┼─────────────┘
-                      ↓
-             Solution Package
-                 Design
-                      ↓
-                   Runtime
-                      ↓
-                  Evidence
+                  MESSY REALITY
+                       ↓
+              ┌─────────────────┐
+              │  REALITY SCOUT  │
+              │                 │
+              │ Discover        │
+              │ Connect         │
+              │ Research        │
+              │ Verify          │
+              │ Reconstruct     │
+              │ Learn           │
+              └────────┬────────┘
+                       ↓
+           TRIANGULATED REALITY MAP
+                       ↓
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+   Capability         Gap          Runtime
+   Assessment       Analysis        Review
+        └──────────────┼──────────────┘
+                       ↓
+              Solution Package
+                  Design
+                       ↓
+                    Runtime
+                       ↓
+                   Evidence
+                       ↓
+                Reality Feedback
+                       ↓
+               Principle Evolution
+                       ↺
 ```
 
-The Scout is therefore not just another analysis skill.
+Reality enters LH OS as fragments.
 
-It is the **Reality reconstruction layer** that allows the rest of the toolbox to operate on the same world.
+Reality Scout connects and verifies those fragments across **LH, Customer, and External Reality** until a Shared Reality becomes inspectable.
 
----
+Then Reality gets a chance to **change the principles used to understand it**.
 
-> **Reality enters LH OS as fragments.**
->
-> **Reality Scout connects the fragments until meaning becomes inspectable.**
->
 > **Connect the dots before judging the dots.**
