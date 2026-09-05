@@ -19,6 +19,7 @@ cases/
 
 - `contract-analysis` — tests structured reasoning over messy contract reality.
 - `demand-node-scout` — tests whether market reality can be transformed into actionable demand topology.
+- `jd-market-scout` — Reality Scout field experiment on real Job Descriptions. Forces Source → Inference → Decision and treats applications as Runtime.
 
 ## Rule
 
